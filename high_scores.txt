@@ -1,0 +1,5 @@
+123,110
+serega,20
+name,10
+igor,0
+slava,0
