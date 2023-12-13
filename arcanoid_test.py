@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 from main import LevelFacade
 
-class TestLevelFacade(unittest.TestCase):
+class LevelFacadeRefactoring(unittest.TestCase):
 
     def setUp(self):
         # Здесь вы можете инициализировать необходимые объекты или переменные перед каждым тестом

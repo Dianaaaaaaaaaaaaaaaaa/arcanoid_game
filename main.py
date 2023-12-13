@@ -176,7 +176,7 @@ class ArkanoidGame:
 
     # Вывод экрана "Game Over"
     def display_game_over(self):
-        font = pygame.font.Font(None, 74)
+        font = pygame.font.Font(None, 75)
         text = font.render("Game Over", True, WHITE)
         text_rect = text.get_rect(center=(400, 300))
         self.screen.blit(text, text_rect)
